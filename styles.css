@@ -44,7 +44,7 @@ body {
   height: 510px;
   position: absolute;
   left: 340px;
-  top: 100px;
+  top: 110px;
   background-color: hsl(270, 20%, 96%);
   border: 10px solid white;
   border-radius: 30px;
@@ -191,16 +191,21 @@ body {
 }
 
 .button-time {
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 3px;
+
   font-weight: 400;
   font-size: 0.5rem;
-  margin: 0 0 10px 3px;
 }
 
 .button-price {
-  font-weight: 700;
-  font-size: 0.8rem;
   float: right;
   margin-right: 5px;
+
+  font-weight: 700;
+  font-size: 0.8rem;
 }
 
 .phone-type {
@@ -212,6 +217,9 @@ body {
 }
 
 #type-placeholder {
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
   color: hsl(206, 6%, 79%);
   font-size: 0.6rem;
   padding: 0 0 0 20px;
@@ -258,6 +266,40 @@ body {
 .section-text p {
   color: hsl(270, 7%, 64%);
   font-size: 1rem;
+}
+
+/* Responsive layout */
+
+@media (max-width: 1250px) {
+  .section-phone {
+    left: 175px;
+  }
+  .section-text {
+    left: 450px;
+  }
+}
+
+@media (max-width: 910px) {
+  .section-phone {
+    top: 75px;
+    transform: translate(-50%, 0);
+    left: 50%;
+  }
+  .section-text {
+    top: 650px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    text-align: center;
+    width: 80%;
+  }
+  .purple-shape1 {
+    top: -100px;
+    left: -300px;
+  }
+  .purple-shape2 {
+    top: 450px;
+    right: -150px;
+  }
 }
 
 /* Attribution */
