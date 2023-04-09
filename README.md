@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/delia-cretu/chat-app-css-illustration-master
+- Live Site URL: https://delia-cretu.github.io/chat-app-css-illustration-master/
 
 ## My process
 
