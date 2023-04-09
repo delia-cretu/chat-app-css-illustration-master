@@ -41,6 +41,33 @@ Users should be able to:
 
 ### What I learned
 
+I was proud that I figured out how to make the arrow and the 3-point menu figures on the top of the phone screen using div's:
+
+```css
+.header-arrow {
+  background-color: transparent;
+  border-top: 2.5px solid white;
+  border-left: 2.5px solid white;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  left: 17px;
+  top: 38px;
+  transform: rotate(-45deg);
+}
+
+.header-menu {
+  border-left: 2px dotted white;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: 12px;
+  top: 38px;
+}
+```
+
+It was a challenge to make the background purple shapes using CSS only and utilising the properties of the border-radius function but I was thrilled to figure out this solution:
+
 ```css
 .purple-shape1 {
   border-radius: 0 0 50% 50% / 0 0 40% 40%;
@@ -53,8 +80,27 @@ Users should be able to:
 }
 ```
 
+I learned that in order to use vertical-align with span element I needed to do the following:
+
+```css
+.button-time {
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+}
+```
+
 ### Continued development
+
+I have more to learn about the following:
+
+- using the position function correctly and efficiently
+- using basic CSS tools to draw different shapes
 
 ### Useful resources
 
 - https://www.sitepoint.com/setting-css3-border-radius-with-slash-syntax/ - This resource really helped me understand how to use border-radius with slash syntax.
+
+```
+
+```
